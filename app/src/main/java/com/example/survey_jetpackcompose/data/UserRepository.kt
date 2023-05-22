@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose // ktlint-disable package-name
+package com.example.survey_jetpackcompose.data // ktlint-disable package-name
 
 import androidx.compose.runtime.Immutable
 

@@ -2,7 +2,7 @@ package com.example.survey_jetpackcompose.ui.welcome
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.survey_jetpackcompose.UserRepository
+import com.example.survey_jetpackcompose.data.UserRepository
 
 class WelcomeViewModel(private val userRepository: UserRepository) : ViewModel() {
 
