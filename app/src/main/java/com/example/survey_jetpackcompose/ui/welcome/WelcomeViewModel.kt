@@ -1,7 +1,8 @@
-package com.example.survey_jetpackcompose
+package com.example.survey_jetpackcompose.ui.welcome
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.survey_jetpackcompose.UserRepository
 
 class WelcomeViewModel(private val userRepository: UserRepository) : ViewModel() {
 
@@ -10,7 +11,7 @@ class WelcomeViewModel(private val userRepository: UserRepository) : ViewModel()
         onNavigateToSignIn: (email: String) -> Unit,
         onNavigateToSignUp: (email: String) -> Unit,
     ) {
-        if (userRepository.isKnownUserEmail(email)) {
+        if (UserRepository.isKnownUserEmail(email)) {
             onNavigateToSignIn(email)
         } else {
             onNavigateToSignUp(email)
@@ -20,7 +21,7 @@ class WelcomeViewModel(private val userRepository: UserRepository) : ViewModel()
     fun signInAsGuest(
         onSignInComplete: () -> Unit,
     ) {
-        userRepository.signInAsGuest()
+        UserRepository.signInAsGuest()
         onSignInComplete()
     }
 }

@@ -7,6 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.survey_jetpackcompose.Destinations.SURVEY_ROUTE
 import com.example.survey_jetpackcompose.Destinations.WELCOME_ROUTE
+import com.example.survey_jetpackcompose.ui.welcome.WelcomeRoute
 
 object Destinations {
     const val WELCOME_ROUTE = "welcome"
