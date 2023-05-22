@@ -8,7 +8,7 @@ import com.example.survey_jetpackcompose.screens.welcome.WelcomeScreen
 fun WelcomeRoute(
     onNavigateToSignIn: (email: String) -> Unit,
     onNavigateToSignUp: (email: String) -> Unit,
-    onSignInAsGuest: () -> Unit,
+    onSignInAsGuest: () -> Unit
 ) {
     val welcomeViewModel: WelcomeViewModel = viewModel(factory = WelcomeViewModelFactory())
 
@@ -17,11 +17,11 @@ fun WelcomeRoute(
             welcomeViewModel.handleContinue(
                 email = email,
                 onNavigateToSignIn = onNavigateToSignIn,
-                onNavigateToSignUp = onNavigateToSignUp,
+                onNavigateToSignUp = onNavigateToSignUp
             )
         },
         onSignInAsGuest = {
             welcomeViewModel.signInAsGuest(onSignInAsGuest)
-        },
+        }
     )
 }
