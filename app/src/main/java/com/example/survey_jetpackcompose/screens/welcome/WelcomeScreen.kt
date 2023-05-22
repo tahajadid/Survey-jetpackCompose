@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose
+package com.example.survey_jetpackcompose.screens.welcome
 
 import android.content.res.Configuration.UI_MODE_NIGHT_NO
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
@@ -33,6 +33,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.survey_jetpackcompose.R
 import com.example.survey_jetpackcompose.ui.theme.SurveyJetpackComposeTheme
 import com.example.survey_jetpackcompose.ui.theme.primaryColor
 import com.example.survey_jetpackcompose.ui.theme.stronglyDeemphasizedAlpha
