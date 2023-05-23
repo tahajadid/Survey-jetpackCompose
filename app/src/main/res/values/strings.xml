@@ -29,7 +29,12 @@
     <!-- survey-->
     <string name="question_count">\u00A0of %d</string>
     <string name="select_one">Select one.</string>
-    <string name="select_all">Select all that apply.</string>
-    <string name="select_date">Select date.</string>
+
+    <!-- question 2 -->
+    <string name="pick_logo">Choose one logo</string>
+    <string name="choice1">Logo - N°1</string>
+    <string name="choice2">Logo - N°2</string>
+    <string name="choice3">Logo - N°3</string>
+    <string name="frag">Frag</string>
 
 </resources>

@@ -9,7 +9,7 @@ class WelcomeViewModel(private val userRepository: UserRepository) : ViewModel()
     fun handleContinue(
         email: String,
         onNavigateToSignIn: (email: String) -> Unit,
-        onNavigateToSignUp: (email: String) -> Unit,
+        onNavigateToSignUp: (email: String) -> Unit
     ) {
         if (UserRepository.isKnownUserEmail(email)) {
             onNavigateToSignIn(email)
@@ -19,7 +19,7 @@ class WelcomeViewModel(private val userRepository: UserRepository) : ViewModel()
     }
 
     fun signInAsGuest(
-        onSignInComplete: () -> Unit,
+        onSignInComplete: () -> Unit
     ) {
         UserRepository.signInAsGuest()
         onSignInComplete()
