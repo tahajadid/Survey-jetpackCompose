@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.screens.singleChoice
+package com.example.survey_jetpackcompose.screens.survey.singleChoice
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
