@@ -7,6 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.survey_jetpackcompose.Destinations.SURVEY_ROUTE
 import com.example.survey_jetpackcompose.Destinations.WELCOME_ROUTE
+import com.example.survey_jetpackcompose.screens.survey.SurveyRoute
 import com.example.survey_jetpackcompose.ui.welcome.WelcomeRoute
 
 object Destinations {
@@ -25,7 +26,7 @@ fun SurveyNavHost(
         composable(WELCOME_ROUTE) {
             WelcomeRoute(
                 onNavigateToSignIn = {
-                    navController.navigate("signin/$it")
+                    navController.navigate(SURVEY_ROUTE)
                 },
                 onNavigateToSignUp = {
                     navController.navigate("signup/$it")
@@ -33,6 +34,15 @@ fun SurveyNavHost(
                 onSignInAsGuest = {
                     navController.navigate(SURVEY_ROUTE)
                 },
+            )
+        }
+
+        composable(SURVEY_ROUTE) {
+            SurveyRoute(
+                onSurveyComplete = {
+                    navController.navigate(WELCOME_ROUTE)
+                },
+                onNavUp = navController::navigateUp,
             )
         }
     }
