@@ -30,11 +30,27 @@
     <string name="question_count">\u00A0of %d</string>
     <string name="select_one">Select one.</string>
 
+
+    <!-- question 1-->
+    <string name="in_my_free_time">In my free time I like to …</string>
+    <string name="read">Read</string>
+    <string name="work_out">Work out</string>
+    <string name="draw">Draw</string>
+    <string name="play_games">Play video games</string>
+    <string name="dance">Dance</string>
+    <string name="watch_movies">Watch movies</string>
+
     <!-- question 2 -->
     <string name="pick_logo">Choose one logo</string>
     <string name="choice1">Logo - N°1</string>
     <string name="choice2">Logo - N°2</string>
     <string name="choice3">Logo - N°3</string>
     <string name="frag">Frag</string>
+
+    <!-- question 2 -->
+    <string name="pick_superhero">Pick a Compose comic character</string>
+    <string name="spark">Spark</string>
+    <string name="lenz">Lenz</string>
+    <string name="bugchaos">Bug of Chaos</string>
 
 </resources>
