@@ -29,7 +29,7 @@ private const val CONTENT_ANIMATION_DURATION = 300
 @Composable
 fun SurveyRoute(
     onSurveyComplete: () -> Unit,
-    onNavUp: () -> Unit,
+    onNavUp: () -> Unit
 ) {
     val viewModel: SurveyViewModel = viewModel(
         factory = SurveyViewModelFactory(PhotoUriManager(LocalContext.current))
@@ -63,11 +63,11 @@ fun SurveyRoute(
                     tween(CONTENT_ANIMATION_DURATION)
                 val direction = getTransitionDirection(
                     initialIndex = initialState.questionIndex,
-                    targetIndex = targetState.questionIndex,
+                    targetIndex = targetState.questionIndex
                 )
                 slideIntoContainer(
                     towards = direction,
-                    animationSpec = animationSpec,
+                    animationSpec = animationSpec
                 ) with slideOutOfContainer(
                     towards = direction,
                     animationSpec = animationSpec
@@ -80,19 +80,21 @@ fun SurveyRoute(
                     FreeTimeQuestion(
                         selectedAnswers = viewModel.freeTimeResponse,
                         onOptionSelected = viewModel::onFreeTimeResponse,
-                        modifier = modifier,
+                        modifier = modifier
                     )
                 }
 
                 SurveyQuestion.SUPERHERO -> SuperheroQuestion(
                     selectedAnswer = viewModel.superheroResponse,
                     onOptionSelected = viewModel::onSuperheroResponse,
-                    modifier = modifier,
+                    modifier = modifier
                 )
 
                 SurveyQuestion.LAST_TAKEAWAY -> {
                     val supportFragmentManager =
                         LocalContext.current.findActivity().supportFragmentManager
+
+                    /*
                     TakeawayQuestion(
                         dateInMillis = viewModel.takeawayResponse,
                         onClick = {
@@ -104,8 +106,9 @@ fun SurveyRoute(
                         },
                         modifier = modifier,
                     )
-                }
 
+                     */
+                }
             }
         }
     }
@@ -132,7 +135,7 @@ private fun getTransitionDirection(
 private fun showTakeawayDatePicker(
     date: Long?,
     supportFragmentManager: FragmentManager,
-    onDateSelected: (date: Long) -> Unit,
+    onDateSelected: (date: Long) -> Unit
 ) {
     val picker = MaterialDatePicker.Builder.datePicker()
         .setSelection(date)
