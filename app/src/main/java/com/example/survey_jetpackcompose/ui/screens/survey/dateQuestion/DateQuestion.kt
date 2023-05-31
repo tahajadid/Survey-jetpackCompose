@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.screens.survey.dateQuestion
+package com.example.survey_jetpackcompose.ui.screens.survey.dateQuestion
 
 import android.content.res.Configuration
 import androidx.annotation.StringRes
@@ -19,8 +19,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.survey_jetpackcompose.R
-import com.example.survey_jetpackcompose.screens.QuestionWrapper
-import com.example.survey_jetpackcompose.screens.survey.simpleDateFormatPattern
+import com.example.survey_jetpackcompose.ui.screens.QuestionWrapper
+import com.example.survey_jetpackcompose.ui.screens.survey.simpleDateFormatPattern
 import com.example.survey_jetpackcompose.ui.theme.SurveyJetpackComposeTheme
 import com.example.survey_jetpackcompose.ui.theme.slightlyDeemphasizedAlpha
 import com.example.survey_jetpackcompose.util.getDefaultDateInMillis

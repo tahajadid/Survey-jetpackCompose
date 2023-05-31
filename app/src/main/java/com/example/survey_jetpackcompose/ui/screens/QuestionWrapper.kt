@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.screens
+package com.example.survey_jetpackcompose.ui.screens
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.background

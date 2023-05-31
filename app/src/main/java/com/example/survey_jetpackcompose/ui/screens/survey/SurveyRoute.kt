@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.screens.survey
+package com.example.survey_jetpackcompose.ui.screens.survey
 
 import android.content.Context
 import android.content.ContextWrapper

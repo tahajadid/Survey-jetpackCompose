@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.ui.welcome
+package com.example.survey_jetpackcompose.ui.screens.welcome
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

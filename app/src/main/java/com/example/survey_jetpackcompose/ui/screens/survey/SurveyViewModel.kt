@@ -1,11 +1,11 @@
-package com.example.survey_jetpackcompose.screens.survey
+package com.example.survey_jetpackcompose.ui.screens.survey
 
 import android.net.Uri
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.survey_jetpackcompose.screens.survey.singleChoice.Superhero
+import com.example.survey_jetpackcompose.ui.screens.survey.singleChoice.Superhero
 import com.example.survey_jetpackcompose.util.PhotoUriManager
 
 const val simpleDateFormatPattern = "EEE, MMM d"

@@ -1,10 +1,10 @@
-package com.example.survey_jetpackcompose.screens.survey
+package com.example.survey_jetpackcompose.ui.screens.survey
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.survey_jetpackcompose.R
-import com.example.survey_jetpackcompose.screens.survey.singleChoice.SingleChoiceQuestion
-import com.example.survey_jetpackcompose.screens.survey.singleChoice.Superhero
+import com.example.survey_jetpackcompose.ui.screens.survey.singleChoice.SingleChoiceQuestion
+import com.example.survey_jetpackcompose.ui.screens.survey.singleChoice.Superhero
 
 @Composable
 fun FreeTimeQuestion(

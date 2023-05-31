@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.screens.survey.photoQuestion
+package com.example.survey_jetpackcompose.ui.screens.survey.photoQuestion
 
 import android.content.res.Configuration
 import android.net.Uri
@@ -37,7 +37,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.survey_jetpackcompose.R
-import com.example.survey_jetpackcompose.screens.QuestionWrapper
+import com.example.survey_jetpackcompose.ui.screens.QuestionWrapper
 import com.example.survey_jetpackcompose.ui.theme.SurveyJetpackComposeTheme
 
 @Composable

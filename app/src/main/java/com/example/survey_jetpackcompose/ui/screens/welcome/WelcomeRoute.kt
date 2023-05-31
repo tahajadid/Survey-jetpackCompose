@@ -1,8 +1,7 @@
-package com.example.survey_jetpackcompose.ui.welcome
+package com.example.survey_jetpackcompose.ui.screens.welcome
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.survey_jetpackcompose.screens.welcome.WelcomeScreen
 
 @Composable
 fun WelcomeRoute(
