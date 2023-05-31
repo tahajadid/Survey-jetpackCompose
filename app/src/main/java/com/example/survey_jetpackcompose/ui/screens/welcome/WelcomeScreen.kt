@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.screens.welcome
+package com.example.survey_jetpackcompose.ui.screens.welcome
 
 import android.content.res.Configuration.UI_MODE_NIGHT_NO
 import android.content.res.Configuration.UI_MODE_NIGHT_YES

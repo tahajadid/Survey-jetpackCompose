@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.screens.survey.multipleChoice
+package com.example.survey_jetpackcompose.ui.screens.survey.multipleChoice
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.BorderStroke
@@ -22,7 +22,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.survey_jetpackcompose.R
-import com.example.survey_jetpackcompose.screens.QuestionWrapper
+import com.example.survey_jetpackcompose.ui.screens.QuestionWrapper
 import com.example.survey_jetpackcompose.ui.theme.defaultColor
 import com.example.survey_jetpackcompose.ui.theme.primaryColor
 import com.example.survey_jetpackcompose.ui.theme.tertiaryColor

@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.screens.survey.sliderQuestion
+package com.example.survey_jetpackcompose.ui.screens.survey.sliderQuestion
 
 import android.content.res.Configuration
 import androidx.annotation.StringRes
@@ -20,7 +20,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.survey_jetpackcompose.R
-import com.example.survey_jetpackcompose.screens.QuestionWrapper
+import com.example.survey_jetpackcompose.ui.screens.QuestionWrapper
 import com.example.survey_jetpackcompose.ui.theme.SurveyJetpackComposeTheme
 
 @Composable

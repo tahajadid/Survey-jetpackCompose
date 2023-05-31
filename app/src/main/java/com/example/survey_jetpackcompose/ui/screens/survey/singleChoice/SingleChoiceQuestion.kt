@@ -1,4 +1,4 @@
-package com.example.survey_jetpackcompose.screens.survey.singleChoice
+package com.example.survey_jetpackcompose.ui.screens.survey.singleChoice
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -31,7 +31,7 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.survey_jetpackcompose.R
-import com.example.survey_jetpackcompose.screens.QuestionWrapper
+import com.example.survey_jetpackcompose.ui.screens.QuestionWrapper
 
 @Composable
 fun SingleChoiceQuestion(
